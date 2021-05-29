@@ -1,0 +1,19 @@
+{
+  "name": "photo-recognizer",
+  "version": "1.0.0",
+  "description": "photo-recognizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npmtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abomb777/photo-recognizer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abomb777/photo-recognizer/issues"
+  },
+  "homepage": "https://github.com/Abomb777/photo-recognizer#readme"
+}
