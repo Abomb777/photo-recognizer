@@ -4,7 +4,11 @@
   "description": "photo-recognizer",
   "main": "index.js",
   "scripts": {
-    "test": "npmtest"
+    "start": "node index.js",
+    "test": "mocha --exit --recursive --no-warnings",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Abomb777/photo-recognizer/issues"
   },
-  "homepage": "https://github.com/Abomb777/photo-recognizer#readme"
+  "homepage": "https://github.com/Abomb777/photo-recognizer#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "canvas": "^2.8.0",
+    "face-api.js": "^0.22.2",
+    "fastify": "^3.17.0"
+  }
 }
